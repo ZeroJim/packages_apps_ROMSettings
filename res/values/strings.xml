@@ -92,11 +92,11 @@
 
     <!-- About -->
     <string name="devs">Team</string>
-    <string name="aokp">Team Horizon</string>
-    <string name="aokp_website_title">Website</string>
-    <string name="aokp_website_summary">@null</string>
-    <string name="aokp_source_title">Source</string>
-    <string name="aokp_source_summary">You can always check out the latest source at github.com/teamhorizon</string>
+    <string name="xenon">Team Horizon</string>
+    <string name="xenon_website_title">Website</string>
+    <string name="xenon_website_summary">@null</string>
+    <string name="xenon_source_title">Source</string>
+    <string name="xenon_source_summary">You can always check out the latest source at github.com/teamhorizon</string>
     <string name="about_aokp">About XenonHD</string>
     <string name="about_aokp_summary">@null</string>
     <string name="donate">https://play.google.com/store/apps/details?id=com.th.xenonhdsupport</string>
@@ -220,7 +220,7 @@
     <string name="toggle_choose_fasttoggle_side_title">Choose fast toggle side</string>
     <string name="toggle_choose_fasttoggle_side_summary">Choose which side the fast toggle area shall be</string>
 
-	<!-- holo theme style for Quick Setting tiles -->
+    <!-- holo theme style for Quick Setting tiles -->
     <string name="holo_dark">Dark</string>
     <string name="holo_light">Light</string>
     <string name="quicksettings_theme_style">Theme</string>

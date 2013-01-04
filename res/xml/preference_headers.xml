@@ -2,37 +2,37 @@
 
     <header
         android:id="@+id/about"
-        android:fragment="com.aokp.romcontrol.fragments.About"
-        android:title="@string/about_aokp"
+        android:fragment="com.xenon.romsettings.fragments.About"
+        android:title="@string/about_xenon"
         android:icon="@drawable/ic_rom_control_about"
-        android:summary="@string/about_aokp_summary" />
+        android:summary="@string/about_xenon_summary" />
 
     <header android:title="@string/user_interface" />
 
     <header
         android:id="@+id/user_interface"
-        android:fragment="com.aokp.romcontrol.fragments.UserInterface"
+        android:fragment="com.xenon.romsettings.fragments.UserInterface"
         android:title="@string/general_ui"
         android:icon="@drawable/ic_rom_control_general_ui"
         android:summary="@string/header_summary_general_ui" />
 
     <header
         android:id="@+id/lockscreen"
-        android:fragment="com.aokp.romcontrol.fragments.Lockscreens"
+        android:fragment="com.xenon.romsettings.fragments.Lockscreens"
         android:title="@string/lockscreen_options"
         android:icon="@drawable/ic_rom_control_lockscreens"
         android:summary="@string/header_summary_lockscreens" />
 
     <header
         android:id="@+id/power_menu"
-        android:fragment="com.aokp.romcontrol.fragments.PowerMenu"
+        android:fragment="com.xenon.romsettings.fragments.PowerMenu"
         android:title="@string/power_menu"
         android:icon="@drawable/ic_rom_control_power_menu"
         android:summary="@string/header_summary_power_menu" />
 
      <header
         android:id="@+id/nav_bar"
-        android:fragment="com.aokp.romcontrol.fragments.Navbar"
+        android:fragment="com.xenon.romsettings.fragments.Navbar"
         android:title="@string/nav_bar"
         android:icon="@drawable/ic_rom_control_navigation_bar"
         android:summary="@string/header_summary_navigation_bar" />
@@ -44,13 +44,13 @@
     <header
         android:id="@+id/statusbar_battery"
         android:title="@string/battery"
-        android:fragment="com.aokp.romcontrol.fragments.StatusBarBattery"
+        android:fragment="com.xenon.romsettings.fragments.StatusBarBattery"
         android:icon="@drawable/ic_rom_control_battery"
         android:summary="@string/header_summary_battery" />
 
     <header
         android:id="@+id/statusbar_clock"
-        android:fragment="com.aokp.romcontrol.fragments.StatusBarClock"
+        android:fragment="com.xenon.romsettings.fragments.StatusBarClock"
         android:summary="@string/header_summary_clock"
         android:icon="@drawable/ic_rom_control_clock"
         android:title="@string/clock" />
@@ -58,14 +58,14 @@
     <header
         android:id="@+id/statusbar_signal"
         android:title="@string/signal"
-        android:fragment="com.aokp.romcontrol.fragments.StatusBarSignal"
+        android:fragment="com.xenon.romsettings.fragments.StatusBarSignal"
         android:icon="@drawable/ic_rom_control_signal"
         android:summary="@string/header_summary_signal" />
     
         <header
         android:id="@+id/statusbar_toggles"
         android:title="@string/title_statusbar_toggles"
-        android:fragment="com.aokp.romcontrol.fragments.StatusBarToggles"
+        android:fragment="com.xenon.romsettings.fragments.StatusBarToggles"
         android:icon="@drawable/ic_rom_control_signal"
         android:summary="@string/header_summary_signal" />
      
@@ -75,14 +75,14 @@
 
     <header
         android:id="@+id/led"
-        android:fragment="com.aokp.romcontrol.fragments.LEDControl"
+        android:fragment="com.xenon.romsettings.fragments.LEDControl"
         android:title="@string/led_options"
         android:icon="@drawable/ic_rom_control_led"
         android:summary="@string/header_summary_led" />
 
     <header
         android:id="@+id/sound"
-        android:fragment="com.aokp.romcontrol.fragments.Sound"
+        android:fragment="com.xenon.romsettings.fragments.Sound"
         android:title="@string/sound"
         android:icon="@drawable/ic_rom_control_sound"
         android:summary="@string/header_summary_sound" />
@@ -94,7 +94,7 @@
         android:icon="@drawable/ic_rom_control_vibrations" >
         <intent
                 android:action="android.intent.action.MAIN"
-                android:targetClass="com.aokp.romcontrol.fragments.Vibrations"
-                android:targetPackage="com.aokp.romcontrol" />
+                android:targetClass="com.xenon.romsettings.fragments.Vibrations"
+                android:targetPackage="com.xenon.romsettings" />
     </header>
 </preference-headers>

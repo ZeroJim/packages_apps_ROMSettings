@@ -26,7 +26,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import com.aokp.romcontrol.R;
+import com.xenon.romsettings.R;
 
 public class ColorPickerDialog
         extends

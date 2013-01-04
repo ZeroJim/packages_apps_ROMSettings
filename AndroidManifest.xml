@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aokp.romcontrol" >
+    package="com.xenon.romsettings" >
 
-    <original-package android:name="com.aokp.romcontrol" />
+    <original-package android:name="com.xenon.romsettings" />
 
     <uses-permission android:name="android.permission.REBOOT" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -30,7 +30,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -39,7 +39,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -48,7 +48,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -57,7 +57,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -66,7 +66,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -75,7 +75,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -84,7 +84,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -93,7 +93,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -109,7 +109,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
         <activity
@@ -139,7 +139,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
 
@@ -150,13 +150,13 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="com.aokp.romcontrol.SHORTCUT" />
+                <category android:name="com.xenon.romsettings.SHORTCUT" />
             </intent-filter>
         </activity>
 
         <provider
             android:name=".vibrations.VibrationsProvider"
-            android:authorities="com.aokp.romcontrol.Vibrations"
+            android:authorities="com.xenon.romsettings.Vibrations"
             android:exported="true" />
 
         <activity
